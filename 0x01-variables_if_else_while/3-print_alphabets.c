@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints a random number and states whether
- *        it is positive, negative, or zero.
+ * main -Prints the alphabet in lowercase, and then in uppercasei.
  *
  * Return: Always 0.
 */
@@ -13,14 +12,10 @@ int main(void)
 char c;
 
 	for (c = 'a'; c <= 'z'; c++)
-	{
-	putchar(c);
-	}
+		putchar(c);
 	for (c = 'A'; c <= 'Z'; c++)
-	{
-	putchar(c);
-	}
-	putchar(\n);
+		putchar(c);
+	putchar('\n');
 
 return (0);
 }
