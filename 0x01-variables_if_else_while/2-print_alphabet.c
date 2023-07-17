@@ -1,23 +1,18 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
- * main - Prints a random number and states whether
- *        it is positive, negative, or zero.
+ * main - Prints the alphabet in lowercase.
  *
  * Return: Always 0.
-*/
+ */
 int main(void)
 {
-char c;
+	char l;
 
-	for (c = 'a'; c <= 'z'; c++)
-	{
-	putchar(c);
+	for (l = 'a'; l <= 'z'; l++)
+		putchar(l);
+
 	putchar('\n');
-	}
 
-return (0);
+	return (0);
 }
-
