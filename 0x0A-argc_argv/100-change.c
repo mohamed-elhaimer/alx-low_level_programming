@@ -17,6 +17,12 @@ int main(int argc, char *argv[])
 	cent = 0;
 	money = atoi(argv[1]);
 	int array[] = {25, 10, 5, 2, 1};
+
+	if (money < 0)
+	{
+		printf("0\n");
+		return (0);
+	}
 		for (i = 0; i < 5; i++)
 		{
 			if (money >= array[i])
