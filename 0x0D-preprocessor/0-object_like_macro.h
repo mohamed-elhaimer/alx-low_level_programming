@@ -1,6 +1,3 @@
-#ifndef _object_like_macro.h
-#define _object_like_macro.h
-
+#ifndef SIZE
 #define SIZE 1024
-
-#endif 
+#endif
