@@ -7,4 +7,5 @@
 int main(void)
 {
 	printf("current file name: %s\n", __FILE__);
+	return (0);
 }
