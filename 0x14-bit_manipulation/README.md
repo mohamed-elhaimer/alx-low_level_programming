@@ -1,0 +1,1 @@
+tasks about bit manipulation
