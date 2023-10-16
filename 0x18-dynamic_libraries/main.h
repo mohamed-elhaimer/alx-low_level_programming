@@ -6,6 +6,8 @@
  * Desc: Header file containing prototypes for all functions
  *       used in the 0x18. C - dynamic libraries.
  */
+#include <stdio.h>
+#include <stdlib.h>
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
