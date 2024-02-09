@@ -8,10 +8,11 @@
 */
 int binary_search(int *array, size_t size, int value)
 {
+	size_t low, height, middle, i;
+	size_t target;
+
 	if (array == NULL || size == 0)
 		return (-1);
-	size_t low, height, middle, i;
-	int target;
 
 	low = 0;
 	height = size - 1;
@@ -26,9 +27,9 @@ int binary_search(int *array, size_t size, int value)
 			printf("%s %d", (i == 0) ? ":" : ",", array[i]);
 
 		printf("\n");
-		if (value > target)
+		if ((size_t)value > (size_t)target)
 			low = middle + 1;
-		else if (value < target)
+		else if ((size_t)value < (size_t)target)
 		{
 			height = middle - 1;
 		}
